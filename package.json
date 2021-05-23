@@ -1,0 +1,23 @@
+{
+  "name": "e-shop",
+  "version": "1.0.0",
+  "description": "MERN shopping cart app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyam034/E-SHOP.git"
+  },
+  "author": "Satyam Bhardwaj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/satyam034/E-SHOP/issues"
+  },
+  "homepage": "https://github.com/satyam034/E-SHOP#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
