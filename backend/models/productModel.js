@@ -44,7 +44,7 @@ const productSchema = mongoose.Schema({
         required: true,
         default: 0
     },
-    numRevuews:{
+    numReviews:{
         type: Number,
         required: true,
         default: 0
@@ -63,6 +63,6 @@ const productSchema = mongoose.Schema({
     timestamps: true
 })
 
-const Product = mongoose.Model("Product", useSchema)
+const Product = mongoose.model("Product", productSchema)
 
 export default Product
