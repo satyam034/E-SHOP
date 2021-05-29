@@ -2,7 +2,7 @@ import { PRODUCT_LIST_REQUEST, PRODUCT_LIST_SUCCESS, PRODUCT_LIST_FAIL } from '.
 import axios from 'axios'
 
 
-export const productList = () => async (dispatch) => {
+export const listProducts = () => async (dispatch) => {
     try{
         dispatch({type: PRODUCT_LIST_REQUEST})
 
@@ -10,7 +10,7 @@ export const productList = () => async (dispatch) => {
 
         dispatch({
             type: PRODUCT_LIST_SUCCESS,
-            payload: data
+            payload: data,
         }) 
 
     }catch(error){
